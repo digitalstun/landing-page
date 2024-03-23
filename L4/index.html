@@ -1,0 +1,57 @@
+<!-- deep seek api -->
+<!-- 
+prompt 
+create a landing page for a web developer, use a styling or ui library of your choice, the page should utilize a bento box grid layout make use of sections and shapes for different information, come up with a creative navigation style, the navigation items should be home about projects and contact, there should be a logo, the contct button should have a call to action styling, make use of sample copy to make the design as expressive as possible the layout should be to the point and attention keeping, use font pairs Amulya Bold + Synonym Regular, use large fonts for main title in teh hero, we will iterate on top of what is created. fill in sample content to bring out the design including text and images
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amulya+Bold&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Synonym&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Your Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="cta-button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to our Web Developer Portfolio</h1>
+            <h2 class="hero-subtitle">Creating digital experiences that people love</h2>
+            <button class="cta-button">Get in Touch</button>
+        </div>
+        <div class="hero-image">
+            <img src="placeholder-hero-image.png" alt="Hero Image">
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Some sample content about the web developer...</p>
+    </section>
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <p>Some sample content about the projects...</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
